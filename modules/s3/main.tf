@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "s3_module_bucket" {
+resource "aws_s3_bucket" "simple_bucket_module" {
   bucket = var.bucket_name
   tags = var.tags
 }
